@@ -1,14 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { parse } from 'csv-parse/sync';
-type personalData = {
-	firstName: string;
-	lastName: string;
-	email: string;
-	country: string;
-	subscription: string;
-	claimFree: boolean;
-}
+
 
 
 
